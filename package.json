@@ -1,0 +1,25 @@
+{
+  "name": "ToDo_List",
+  "version": "1.0.0",
+  "description": "",
+  "main": "config.js",
+  "scripts": {
+    "dev": "SET \"NODE_ENV=development\" && nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.4.2"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.9"
+  }
+}
